@@ -109,69 +109,71 @@ a:active {
     margin: 0px;
 }
 
+.icons {
+    width: 35%;
+    height: 35%;
+    float: left;
+    margin: 5px 6% 0px 6%;
+}
+
 .hangman {
     position: absolute;
-    width: 200px;
+    width: 35%;
     height: 20px;
     padding: 5px 0px 5px 0px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 205px;
-    left: 130px;
+    top: 30%;
+    left: 6%;
 }
 
 .rpg {
     position: absolute;
-    width: 200px;
+    width: 35%;
     height: 20px;
     padding: 5px 0px 5px 0px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 205px;
-    right: 130px;
+    top: 30%;
+    left: 53%;
 }
 
 .trivia {
     position: absolute;
-    width: 200px;
+    width: 35%;
     height: 20px;
     padding: 5px 0px 5px 0px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 410px;
-    left: 130px;
+    top: 60%;
+    left: 6%;
 }
 
 .rutgers {
     position: absolute;
-    width: 200px;
+    width: 35%;
     height: 20px;
     padding: 5px 0px 5px 0px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 410px;
-    right: 130px;
+    top: 60%;
+    left: 53%;
 }
 
 .rps {
     position: absolute;
-    width: 200px;
+    width: 35%;
     height: 20px;
     padding: 5px 0px 5px 0px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    top: 620px;
-    left: 130px;
-}
-
-.icons {
-    float: left;
-    margin: 5px 130px 0px 130px;
+    top: 90%;
+    left: 6%;
 }
 
 .clearfix {
@@ -242,30 +244,6 @@ footer {
         float: left;
         margin-left: 5%;
     }
-    .icons{
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .hangman {
-        top: 205px;
-        left: 7%;
-    }
-    .rpg {
-        top: 205px;
-        right: 9.5%;
-    }
-    .trivia {
-        top: 410px;
-        left: 7%;
-    }
-    .rutgers {
-        top: 410px;
-        right: 9.5%;
-    }
-    .rps {
-        top: 620px;
-        left: 7%;
-    }
 }
 @media only screen and (max-width: 768px){
     .nav{
@@ -284,31 +262,7 @@ footer {
     .content{
         width: 80%;
         float: left;
-        margin: 0px 0px 0px 5%;
-    }
-    .icons{
-        margin-left: 6%;
-        margin-right: 6%;
-    }
-    .hangman {
-        top: 205px;
-        left: 6%;
-    }
-    .rpg {
-        top: 205px;
-        left: calc(200px + 18%);
-    }
-    .trivia {
-        top: 410px;
-        left: 6%;
-    }
-    .rutgers {
-        top: 410px;
-        left: calc(200px + 18%);
-    }
-    .rps {
-        top: 620px;
-        left: 6%;
+        margin: 0px 0px 50px 5%;
     }
     .copyright{
         margin: 0px;
@@ -327,7 +281,7 @@ footer {
         width: 100%;
         max-width: 640px;
         text-align: center;
-        padding: 28px 0px 28px 0px;
+        padding: 28px 2.5% 28px 2.5%;
     }
     .links {
         display: block;
@@ -335,7 +289,7 @@ footer {
         width: 100%;
         text-align: center;
         margin:0;
-        padding: 10px 0px 10px 0px;
+        padding: 10px 2.5% 10px 2.5%;
     }
     header{
         width:100%;
