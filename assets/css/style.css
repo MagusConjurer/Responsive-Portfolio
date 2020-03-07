@@ -225,7 +225,7 @@ footer {
 
 @media only screen and (max-width: 980px){
     .nav{
-        width:100%;
+        width:95%;
         margin-left: 5%;
     }
     .links {
@@ -238,7 +238,7 @@ footer {
         width: 100%;
     }
     .content{
-        width: 576px;
+        width: calc(576px - 5%);
         float: left;
         margin-left: 5%;
     }
@@ -269,8 +269,8 @@ footer {
 }
 @media only screen and (max-width: 768px){
     .nav{
-        width:100%;
-        margin-left: 5%;
+        width:95%;
+        margin-left: 0px 0px 0px 5%;
     }
     .links {
         margin-left: 18%;
@@ -282,9 +282,9 @@ footer {
         width: 100%;
     }
     .content{
-        width: 85%;
+        width: 80%;
         float: left;
-        margin-left: 5%;
+        margin: 0px 0px 0px 5%;
     }
     .icons{
         margin-left: 6%;
@@ -310,7 +310,82 @@ footer {
         top: 620px;
         left: 6%;
     }
+    .copyright{
+        margin: 0px;
+    }
 }
 @media only screen and (max-width: 640px){
-
+    .container{
+        max-width: 640px;
+    }
+    .nav{
+        max-width: 640px;
+        margin: 0px;
+    }
+    .name {
+        float: none;
+        width: 100%;
+        max-width: 640px;
+        text-align: center;
+        padding: 28px 0px 28px 0px;
+    }
+    .links {
+        display: block;
+        max-width: 640px;
+        width: 100%;
+        text-align: center;
+        margin:0;
+        padding: 10px 0px 10px 0px;
+    }
+    header{
+        width:100%;
+        max-width: 640px;
+    }
+    .main{
+        width: 100%;
+    }
+    .content{
+        width: 85%;
+        margin-left: 5%;
+        margin-right:0px;
+    }
+    .photo{
+        margin:0px;
+        width:50%;
+        height:50%;
+        margin: 0 25% 10px 25%;
+    }
+    .icons{
+        height: 50%;
+        width: 50%;
+        margin: 0px 25% 20px 25%;
+    }
+    .hangman {
+        width: 50%;
+        top: 17%;
+        left: 25%;
+    }
+    .rpg {
+        width: 50%;
+        top: 36%;
+        left: 25%;
+    }
+    .trivia {
+        width: 50%;
+        top: 55%;
+        left: 25%;
+    }
+    .rutgers {
+        width: 50%;
+        top: 74%;
+        left: 25%;
+    }
+    .rps {
+        width: 50%;
+        top: 93%;
+        left: 25%;
+    }
+    .copyright{
+        margin:0px;
+    }
 }
